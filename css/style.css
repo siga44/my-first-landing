@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400;700&display=swap&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,800&display=swap&subset=cyrillic");
 *,
 *:before,
 *:after {
@@ -13,7 +15,6 @@
 html,
 body {
   font-size: 10px;
-  font-family: "Inter", "Roboto", "Arial", sans-serif;
 }
 
 a {
@@ -22,34 +23,6 @@ a {
 
 ul {
   list-style: none;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css?family=Roboto:400&display=swap&subset=cyrillic");
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap&subset=cyrillic");
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("https://fonts.googleapis.com/css?family=Inter:400&display=swap&subset=cyrillic");
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("https://fonts.googleapis.com/css?family=Inter:800&display=swap&subset=cyrillic");
-  font-style: normal;
-  font-weight: 800;
 }
 
 strong {
@@ -99,18 +72,19 @@ a {
 }
 
 .headerBlock__title {
-  font-family: Inter;
+  font-family: "inter";
   margin-top: 2rem;
   font-size: 3rem;
 }
 
 .headerBlock__text {
-  font-family: Roboto;
+  font-family: "Roboto";
   margin-top: 2rem;
   font-size: 1.6rem;
 }
 
 .headerBlock__buttons {
+  font-family: "Roboto";
   margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,7 +97,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-transform: uppercase;
-  font-family: Roboto;
   font-size: 1.8rem;
   font-weight: 700;
 }
